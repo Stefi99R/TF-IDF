@@ -50,6 +50,7 @@ Some assumptions are:
 4. Input text sequences can contain leading and/or trailing spaces.
 5. Input text sequences are not empty.
 
+### An example dataset is provided.
 
 ## Output
 All results are printed to the standard output.  
@@ -66,9 +67,6 @@ When multiple words have the same score, they are ordered lexicographically.
 The resulting list of 5 sentences is printed to the standard output in a single line. The sentences are separated by a single space (ex. "Sentence1. Sentence2. ... SentenceN.").
 The order of the sentences ais the same as in the original document. If multiple sentences have the same score, the higher priority is assigned 
 to the sentence that comes earlier in the document.
-
-### An example dataset is provided.
-
 
 ## Requirements
 ***Python version 3.x*** and Natural Language Toolkit (***nltk***) library.
