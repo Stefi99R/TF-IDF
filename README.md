@@ -50,7 +50,12 @@ Some assumptions are:
 4. Input text sequences can contain leading and/or trailing spaces.
 5. Input text sequences are not empty.
 
-### An example dataset is provided.
+Example input: 
+
+*Insert the path to the corpus: ...\corpus  
+Insert the path for the file that ...\corpus\goose\Domestic goose.txt*
+
+### An example corpus folder is provided as *corpus-example* in the project structure.
 
 ## Output
 All results are printed to the standard output.  
@@ -67,6 +72,14 @@ When multiple words have the same score, they are ordered lexicographically.
 The resulting list of 5 sentences is printed to the standard output in a single line. The sentences are separated by a single space (ex. "Sentence1. Sentence2. ... SentenceN.").
 The order of the sentences ais the same as in the original document. If multiple sentences have the same score, the higher priority is assigned 
 to the sentence that comes earlier in the document.
+
+Example output:
+
+*Keywords:  
+hors, breed, poni, domest, bone, anim, ride, equus, inch, mare  
+Summarized document:  
+These feral populations are not true wild horses, as this term is used to describe horses that have never been domesticated, such as the endangered Przewalski's horse, a separate subspecies, and the only remaining true wild horse. All horses move naturally with four basic gaits: the four-beat walk, which averages 6.4 kilometres per hour (4.0 mph); the two-beat trot or jog at 13 to 19 kilometres per hour (8.1 to 11.8 mph) (faster for harness racing horses); the canter or lope, a three-beat gait that is 19 to 24 kilometres per hour (12 to 15 mph); the gallop, which averages 40 to 48 kilometres per hour (25 to 30 mph), but the world record for a horse galloping over a short, sprint distance is 70.76 kilometres per hour (43.97 mph).Besides these basic gaits, some horses perform a two-beat pace, instead of the trot. Sometimes "hot-bloods" are classified as "light horses" or "riding horses", with the "cold-bloods" classified as "draft horses" or "work horses". "Hot blooded" breeds include "oriental horses" such as the Akhal-Teke, Arabian horse, Barb and now-extinct Turkoman horse, as well as the Thoroughbred, a breed developed in England from the older oriental breeds. "Warmblood" breeds, such as the Trakehner or Hanoverian, developed when European carriage and war horses were crossed with Arabians or Thoroughbreds, producing a riding horse with more refinement than a draft horse, but greater size and milder temperament than a lighter breed.*
+
 
 ## Requirements
 ***Python version 3.x*** and Natural Language Toolkit (***nltk***) library.
